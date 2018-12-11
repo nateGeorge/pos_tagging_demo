@@ -54,7 +54,7 @@ def process_text(text):
     # get verb phrase from sentences and check if progressive
 
 
-    verb_clause_pattern = r'<VERB>*<ADV>*<PART>*<VERB>+<PART>*'
+    verb_clause_pattern = r'<VERB>+<ADV>*<PART>*<VERB>*<PART>*'
 
     progressive_sentences, progressive_verb_clauses = [], []
     adverb_sentences, adverbs = [], []
