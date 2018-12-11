@@ -85,7 +85,7 @@ def process_text(text):
             print('has adverbs:', adverbs[i], '\n')
 
     # print out sentences with possible progressive verb clauses
-    print('\n\n\nPRORGESSIVE TENSES')
+    print('\n\n\nPROGESSIVE TENSES')
     print(len(progressive_sentences), 'sentences detected with progressive verb clauses\n')
     if len(progressive_sentences) > 0:
         for i, adv in enumerate(progressive_sentences):
